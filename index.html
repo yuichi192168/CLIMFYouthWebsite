@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <link rel="icon" type="png" href="images/logo.png">
+  <title>CLIMF Youth Cabuyao</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">  
+  <link rel="stylesheet" href="css/script.js">
+
+  
+  
+</head>
+<body>
+	<audio id="backgroundAudio" loop>
+		<source src="audio/christbemagnefied.mp3" type="audio/mp3">
+		Your browser does not support the audio element.
+	  </audio>
+	  
+	  <!-- Start Header -->
+	  <header>
+		<div class="container">
+		  <img src="images/logo.png" height="90px" width="90px"> 
+		  <div class="logo">
+			<a href="">CLIMF Youth <span>Cabuyao</span></a>
+		  </div>
+		  <a href="javascript:void(0)" class="ham-burger">
+			<span></span>
+			<span></span>
+		  </a>
+		  <div class="nav">
+			<ul>
+			  <li><a href="#home">Home</a></li>
+			  <li><a href="#about">About Us</a></li>
+			  <li><a href="#service">Ministries</a></li>
+			  <li><a href="#messages">Messages</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			  <li><a class="play-btn" onclick="playAudio()" href="#playmusic">Play Music</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </header>
+	  <!-- End Header -->
+	  
+	  
+
+  <!-- Start Home -->
+  <section class="home data-wow-delay " id="home">
+    <a href="#about" class="go-down">
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </a>
+  </section>
+  <!-- End Home -->
+
+  <style>
+	/* Container Styles */
+	.iframe-container {
+	  overflow: hidden;
+	  position: relative;
+	  width: 100%;
+	  padding-top: 56.25%; /* Aspect ratio for the iframe */
+	  border-radius: 12px;
+	  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+	  transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+  
+	.iframe-container:hover {
+	  transform: translateY(-5px);
+	  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	}
+  
+	.iframe-container iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  border-radius: 12px;
+	}
+  
+	/* Grid Layout */
+	.content {
+	  display: grid;
+	  gap: 20px;
+	  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	  margin-top: 40px;
+	}
+  
+	/* Section Headings */
+	.about h4 {
+	  font-size: 1.5rem;
+	  color: #333;
+	}
+  
+	.about p {
+	  font-size: 1rem;
+	  color: #555;
+	  line-height: 1.5;
+	}
+  
+	/* Box Hover Effects */
+	.box {
+	  padding: 20px;
+	  border-radius: 10px;
+	  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	  transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+  
+	.box:hover {
+	  transform: translateY(-5px);
+	  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	}
+  
+	.img img {
+	  width: 100%;
+	  height: auto;
+	  border-radius: 8px;
+	  margin-bottom: 15px;
+	}
+  </style>
+  
+  <!-- Start FB post -->
+  <section class="about" id="about">
+	<div class="container">
+	  <h2>Featured Posts From Facebook</h2>
+	  <div class="content">
+		<div class="box wow bounceInUp">
+		  <div class="iframe-container">
+			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0KV5Akrnw9Vpu7NRjgH1YrjE4unfcQTyfd5VMrcWHchdBJVeUkKYWkwRy4siBxreSl%26id%3D61564221352420&show_text=true&width=500" scrolling="no" frameborder="0" allowfullscreen></iframe>
+		  </div>
+		</div>
+		<div class="box wow bounceInUp" data-wow-delay="0.2s">
+		  <div class="iframe-container">
+			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0KeFDUeYuHnm8JUZgFViqJBT6CjL657HWVyJRyZXQEdAs9SQKDZJjpipoigSb6QcCl%26id%3D61564221352420&show_text=true&width=500" scrolling="no" frameborder="0" allowfullscreen></iframe>
+		  </div>
+		</div>
+		<div class="box wow bounceInUp" data-wow-delay="0.4s">
+		  <div class="iframe-container">
+			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0cp8fGmyj6MiNVh31SoYrmXT67DCJzbe5gS5ncZRuGjnZ6VTyYYrSCnUZAwVQFMNbl%26id%3D61564221352420&show_text=true&width=500" scrolling="no" frameborder="0" allowfullscreen></iframe>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End FB post -->
+
+  
+  <section class="about" id="about">
+	<div class="container">
+	  <h2>Featured Posts From Instagram</h2>
+	  <div class="content">
+		<!-- Instagram Post 1 -->
+		<div class="box2 wow bounceInUp" data-wow-delay="0.2s">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DFP0r2kqBWI" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:undefinedpx;height:undefinedpx;max-height:100%; width:undefinedpx;"><div style="padding:16px;"> <a id="main_link" href="https://www.instagram.com/p/DFP0r2kqBWI" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DFP0r2kqBWI" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Shared post</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;">Time</time></p></div></blockquote><script src="https://www.instagram.com/embed.js"></script><script type="text/javascript" src="https://www.embedista.com/j/instagram.js"></script><div style="overflow: auto; position: absolute; height: 0pt; width: 0pt;"><a href="https://www.embedista.com/instagram">Embed Instagram Post</a> Code Generator</div></div><style>.boxes3{height:175px;width:153px;} #n img{max-height:none!important;max-width:none!important;background:none!important} #inst i{max-height:none!important;max-width:none!important;background:none!important}</style></div>
+		  </blockquote>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <hr>
+  <section class="about" id="about">
+	<div class="container">
+	  <div class="content">
+		<!-- Instagram Post 2 -->
+		<div class="box2 wow bounceInUp" data-wow-delay="0.4s">
+           <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DE9ufjKM2sa" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:undefinedpx;height:undefinedpx;max-height:100%; width:undefinedpx;"><div style="padding:16px;"> <a id="main_link" href="https://www.instagram.com/p/DE9ufjKM2sa" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DE9ufjKM2sa" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Shared post</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;">Time</time></p></div></blockquote><script src="https://www.instagram.com/embed.js"></script><script type="text/javascript" src="https://www.embedista.com/j/instagram.js"></script><div style="overflow: auto; position: absolute; height: 0pt; width: 0pt;"><a href="https://www.embedista.com/instagram">Embed Instagram Post</a> Code Generator</div></div><style>.boxes3{height:175px;width:153px;} #n img{max-height:none!important;max-width:none!important;background:none!important} #inst i{max-height:none!important;max-width:none!important;background:none!important}</style></div>
+		  </blockquote>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <hr>
+  <section class="about" id="about">
+	<div class="container">
+	  <div class="content">
+		<!-- Instagram Post 3 -->
+		<div class="box2 wow bounceInUp" data-wow-delay="0.6s">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DErzxtXuIgt" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:undefinedpx;height:undefinedpx;max-height:100%; width:undefinedpx;"><div style="padding:16px;"> <a id="main_link" href="https://www.instagram.com/p/DErzxtXuIgt" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DErzxtXuIgt" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Shared post</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;">Time</time></p></div></blockquote><script src="https://www.instagram.com/embed.js"></script><script type="text/javascript" src="https://www.embedista.com/j/instagram.js"></script><div style="overflow: auto; position: absolute; height: 0pt; width: 0pt;"><a href="https://www.embedista.com/instagram">Embed Instagram Post</a> Code Generator</div></div><style>.boxes3{height:175px;width:153px;} #n img{max-height:none!important;max-width:none!important;background:none!important} #inst i{max-height:none!important;max-width:none!important;background:none!important}</style></div>
+		  </blockquote>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  
+  <style>
+	* {
+	  box-sizing: border-box;
+	}
+  
+	.container {
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  padding: 20px;
+	}
+  
+	.content {
+	  display: grid;
+	  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	  gap: 20px;
+	}
+  
+	.box2 {
+	  background: #ffffff;
+	  padding: 15px;
+	  border-radius: 8px;
+	  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
+  
+	blockquote.instagram-media {
+	  background: #fff;
+	  border: none;
+	  width: 100%;
+	}
+  
+	h2 {
+	  text-align: center;
+	  margin-bottom: 30px;
+	  font-size: 24px;
+	  color: #333;
+	}
+  </style>
+  
+
+
+<!-- Start YT post -->
+<section class="about" id="about">
+	<div class="container">
+	  <h2>Featured Posts From YouTube</h2>
+	  <div class="content">
+		<div class="box wow bounceInUp">
+		  <a href="https://www.youtube.com/watch?v=NZKNakOKv40" target="_blank">
+			<img src="https://img.youtube.com/vi/NZKNakOKv40/hqdefault.jpg" alt="YouTube Video Thumbnail 1" style="max-width: 100%; border-radius: 8px;">
+		  </a>
+		</div>
+		<div class="box wow bounceInUp" data-wow-delay="0.2s">
+		  <a href="https://www.youtube.com/watch?v=we1fQEKKJtQ" target="_blank">
+			<img src="https://img.youtube.com/vi/we1fQEKKJtQ/hqdefault.jpg" alt="YouTube Video Thumbnail 2" style="max-width: 100%; border-radius: 8px;">
+		  </a>
+		</div>
+		<div class="box wow bounceInUp" data-wow-delay="0.4s">
+		  <a href="https://www.youtube.com/watch?v=47ZIcZjujiI" target="_blank">
+			<img src="https://img.youtube.com/vi/47ZIcZjujiI/hqdefault.jpg" alt="YouTube Video Thumbnail 3" style="max-width: 100%; border-radius: 8px;">
+		  </a>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End YT post -->
+  
+
+<!-- Start Journey Section -->
+<section class="start-today">
+	<div class="container">
+	  <div class="content">
+		<div class="box text wow slideInLeft">
+		  <h2>Begin Your Faith Journey Today</h2>
+		  <p>
+			At <strong>CLIMF Youth Cabuyao</strong>, we believe every step in faith draws us closer to God's purpose for our lives. We provide a welcoming space where young believers can grow spiritually, form lasting friendships, and strengthen their connection with God.
+		  </p>
+		  <p>
+			Join us for inspiring Bible study sessions, uplifting worship services, and engaging community activities. Together, let's walk in faith and make a meaningful impact in our community.
+		  </p>
+		  <a href="#" class="btn">Get Involved Now</a>
+		</div>
+		<div class="box img wow slideInRight">
+		  <img src="images/journey.jpg" alt="Faith Journey" />
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End Journey Section -->
+
+  
+
+
+  <!-- Start Schedule -->
+<section class="schedule" id="schedule">
+	<div class="container" style="text-align: center;">
+	  <div class="content" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+		<!-- Image -->
+		<div>
+		  <img src="images/corpo.png" width="250px" height="250px" alt="Schedule Image">
+		</div>
+  
+		<!-- Schedule Table -->
+		<div class="box timing wow slideInRight" style="margin-top: 20px;">
+		  <table class="table" style="margin: 0 auto; text-align: center; width: 100%; border-spacing: 10px;">
+			<tbody>
+			  <!-- Saturday Schedule -->
+			  <tr>
+				<td class="day" style="padding: 15px; font-weight: bold; text-transform: uppercase;">Saturday</td>
+				<td style="padding: 15px;"><strong>Corporate Prayer</strong><br />5:00 AM to 6:00 AM</td>
+			  </tr>
+			  
+			  <!-- Sunday Schedule -->
+			  <tr>
+				<td class="day" style="padding: 15px; font-weight: bold; text-transform: uppercase;">Sunday</td>
+				<td style="padding: 15px;"><strong>First Service</strong><br />7:00 AM to 9:00 AM</td>
+				<td style="padding: 15px;"><strong>Second Service</strong><br />10:00 AM to 12:00 PM</td>
+				<td style="padding: 15px;"><strong>Youth Fellowship</strong><br />3:00 PM to 5:00 PM</td>
+			  </tr>
+			</tbody>
+		  </table>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End Schedule -->
+
+<!-- Start Bible Quotes -->
+<section class="gallery" id="gallery">
+	<div class="container">
+	  <h2>Bible Quotes</h2>
+	  <div class="content">
+		<div class="box wow slideInLeft">
+		  <img src="images/bibleq1.jpg" alt="Youth Service" />
+		</div>
+		<div class="box wow slideInRight">
+		  <img src="images/bibleq2.jpg" alt="Prayer Group" />
+		</div>
+		<div class="box wow slideInLeft">
+		  <img src="images/bibleq3.jpg" alt="Community Outreach" />
+		</div>
+		<div class="box wow slideInRight">
+		  <img src="images/bibleq4.jpg" alt="Worship Night" />
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End Bible Quotes -->
+  
+  <style>
+	/* Section Styling */
+	.gallery {
+	  padding: 50px 20px;
+	  background-color: #f9f9f9;
+	  text-align: center;
+	}
+  
+	.gallery h2 {
+	  font-size: 2rem;
+	  margin-bottom: 30px;
+	  color: #333;
+	}
+  
+	/* Responsive Gallery Grid */
+	.content {
+	  display: grid;
+	  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	  gap: 20px;
+	  justify-content: center;
+	}
+  
+	.box {
+	  position: relative;
+	  overflow: hidden;
+	  border-radius: 10px;
+	  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	}
+  
+	.box img {
+	  width: 100%;
+	  height: auto;
+	  transition: transform 0.3s ease;
+	}
+  
+	.box:hover img {
+	  transform: scale(1.1);
+	}
+  </style>
+
+<!-- Start Messages -->
+<section class="messages" id="messages">
+	<div class="container">
+	  <h2>Grow in Faith with Our Preaching Messages</h2>
+	  <p class="title-p">Dive deep into God's word with our inspiring sermons and messages. These teachings are designed to strengthen your spiritual journey and guide you in living a Christ-centered life.</p>
+	  <div class="content">
+		<div class="box wow bounceInUp">
+		  <div class="inner">
+ 			<div class="img">
+			  <img src="images/message1.jpg" alt="messages" />
+			</div>
+			<div class="text">
+			  <h3>Faith Over Fear</h3>
+			  <p>Learn how to trust God's plan even in times of uncertainty. This message encourages believers to overcome fear and step into the fullness of God's promises.</p>
+			</div>
+		  </div>
+		</div>
+		<div class="box wow bounceInUp" data-wow-delay="0.2s">
+		  <div class="inner">
+			<div class="img">
+			  <img src="images/message2.jpg" alt="messages" />
+			</div>
+			<div class="text">
+			  <h3>Hope in Christ</h3>
+			  <p>Discover the power of hope that comes from a relationship with Christ. This sermon reminds us that no matter the trials, our hope is unshakable in Jesus.</p>
+			</div>
+		  </div>
+		</div>
+		<div class="box wow bounceInUp" data-wow-delay="0.4s">
+		  <div class="inner">
+			<div class="img">
+			  <img src="images/message3.jpg" alt="messages" />
+			</div>
+			<div class="text">
+			  <h3>Walking in Purpose</h3>
+			  <p>Understand your God-given purpose and how to walk confidently in the plan God has designed for your life. This message empowers you to live with intentionality and faith.</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End Messages -->
+
+  <!-- Start Ministries -->
+  <section class="service" id="service">
+    <div class="container">
+      <div class="content">
+        <div class="text box wow slideInLeft">
+          <h2>Our Ministries</h2>
+          <p>Explore opportunities to connect, grow, and serve through our various ministries.</p>
+        </div>
+        <div class="accordian box wow slideInRight">
+          <div class="accordian-container active">
+            <div class="head">
+              <h4>Youth Worship</h4>
+              <span class="fa fa-angle-down"></span>
+            </div>
+            <div class="body">
+              <p>Join our vibrant worship sessions filled with music, prayer, and inspiring messages.</p>
+            </div>
+          </div>
+          <div class="accordian-container">
+            <div class="head">
+              <h4>Discipleship Groups</h4>
+              <span class="fa fa-angle-up"></span>
+            </div>
+            <div class="body">
+              <p>Connect with small groups for deeper discussions and personalized spiritual guidance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Ministries -->
+
+ <!-- Start Contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="content">
+      <div class="box form wow slideInLeft">
+        <form>
+          <input type="text" placeholder="Enter Name">
+          <input type="text" placeholder="example@gmail.com">
+          <input type="text" placeholder="09123456789">
+          <textarea placeholder="Enter Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="box text wow slideInRight">
+        <p class="title-p">
+          Follow us on social media
+        </p>
+        <div class="info">
+          <ul>
+            <li><span class="fa fa-map-marker"></span> Cabuyao, Laguna</li>
+            <li><span class="fa fa-phone"></span> 09123456789</li>
+            <li><span class="fa fa-envelope"></span> climfyouth@gmail.com</li>
+          </ul>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/profile.php?id=61564221352420"><span class="fa fa-facebook"></span></a>
+          <a href=""><span class="fa fa-instagram"></span></a>
+          <a href=""><span class="fa fa-youtube-play"></span></a>
+		  <br>
+        </div>
+		<br>
+		<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.1983240025585!2d121.15174489375269!3d14.239159189919329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd621473eee257%3A0x3bdca785e6ca5c69!2sChrist%20Liveth%20In%20Me%20Fellowship%20-%20Cabuyao!5e0!3m2!1sen!2sph!4v1738115766135!5m2!1sen!2sph" 
+		width="100%" 
+		height="100%" 
+		style="border:0;" 
+		allowfullscreen="" 
+		loading="lazy">
+	  </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact -->
+
+<!-- jquery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+
+	 $(".ham-burger, .nav ul li a").click(function(){
+	  
+	   $(".nav").toggleClass("open")
+
+	   $(".ham-burger").toggleClass("active");
+	 })      
+	 $(".accordian-container").click(function(){
+		 $(".accordian-container").children(".body").slideUp();
+		 $(".accordian-container").removeClass("active")
+		 $(".accordian-container").children(".head").children("span").removeClass("fa-angle-down").addClass("fa-angle-up")
+		 $(this).children(".body").slideDown();
+		 $(this).addClass("active")
+		 $(this).children(".head").children("span").removeClass("fa-angle-up").addClass("fa-angle-down")
+	 })
+
+	  $(".nav ul li a, .go-down").click(function(event){
+		if(this.hash !== ""){
+
+			 event.preventDefault();
+
+			 var hash=this.hash; 
+
+			 $('html,body').animate({
+			   scrollTop:$(hash).offset().top
+			 },800 , function(){
+				window.location.hash=hash;
+			 });
+
+			 // add active class in navigation
+			 $(".nav ul li a").removeClass("active")
+			 $(this).addClass("active")
+		}
+	 })
+})
+
+</script>
+<script src="js/wow.min.js"></script>
+<script src="css/script.js"></script>
+<script async src="//www.instagram.com/embed.js"></script>
+
+<script>
+   wow = new WOW(
+	 {
+	   animateClass: 'animated',
+	   offset:       0,
+	 }
+   );
+   wow.init();
+ </script>
+ 
+</body>
+</html>
